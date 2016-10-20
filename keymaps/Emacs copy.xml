@@ -3,7 +3,23 @@
     <keyboard-shortcut first-keystroke="alt c" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
   </action>
+  <action id="ChangesView.Commit">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="Console.Execute">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="EditorChooseLookupItem">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl insert" />
+  </action>
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="enter" />
   </action>
 </keymap>
