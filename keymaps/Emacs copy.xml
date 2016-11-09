@@ -15,6 +15,9 @@
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
+  <action id="EditorToggleStickySelection">
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
