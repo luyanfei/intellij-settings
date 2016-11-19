@@ -25,6 +25,9 @@
     <keyboard-shortcut first-keystroke="ctrl insert" />
   </action>
   <action id="Images.Editor.ToggleGrid" />
+  <action id="IntroduceField">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="enter" />
