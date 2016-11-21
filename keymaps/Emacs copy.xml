@@ -15,6 +15,10 @@
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
