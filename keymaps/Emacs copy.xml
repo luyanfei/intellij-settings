@@ -3,8 +3,18 @@
     <keyboard-shortcut first-keystroke="alt c" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
   </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="Console.Execute">
     <keyboard-shortcut first-keystroke="enter" />
@@ -27,6 +37,9 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl insert" />
+  </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
   <action id="Images.Editor.ToggleGrid" />
   <action id="IntroduceField">
