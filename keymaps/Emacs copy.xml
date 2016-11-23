@@ -45,6 +45,9 @@
   <action id="IntroduceField">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="enter" />
