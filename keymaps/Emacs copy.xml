@@ -6,6 +6,10 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
   <action id="ChangesView.Commit">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
@@ -29,11 +33,23 @@
     <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="ctrl a" />
   </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt f" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="ctrl f" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt b" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="ctrl b" />
+  </action>
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="shift ctrl 2" />
   </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl insert" />
