@@ -103,6 +103,9 @@
   <action id="ShowFilePath">
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
   </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl t" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
