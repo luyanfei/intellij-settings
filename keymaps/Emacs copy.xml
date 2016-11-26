@@ -27,6 +27,9 @@
   <action id="Console.Execute">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="EditorChooseLookupItem">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
@@ -61,6 +64,10 @@
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl quote" />
   </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f3" />
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl right" />
@@ -79,12 +86,19 @@
     <keyboard-shortcut first-keystroke="ctrl alt p" />
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+    <keyboard-shortcut first-keystroke="shift back_space" />
+  </action>
   <action id="NewClass">
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="NextTemplateVariable">
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl b" />
   </action>
   <action id="ShowFilePath">
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
