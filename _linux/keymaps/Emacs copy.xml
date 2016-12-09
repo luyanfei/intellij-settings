@@ -1,9 +1,0 @@
-<keymap version="1" name="Emacs copy" parent="Emacs">
-  <action id="$Copy">
-    <keyboard-shortcut first-keystroke="alt c" />
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
-  </action>
-  <action id="Generate">
-    <keyboard-shortcut first-keystroke="ctrl insert" />
-  </action>
-</keymap>
